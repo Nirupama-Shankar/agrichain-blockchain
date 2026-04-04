@@ -105,13 +105,13 @@ npm start
 Open: http://localhost:3000
 
 
-API Endpoints
+### API Endpoints
 | Method | Endpoint                                 | Description         |
 | ------ | ---------------------------------------- | ------------------- |
 | GET    | /health                                  | Server health check |
 | POST   | /channels/mychannel/chaincodes/agrichain | Invoke chaincode    |
 
-Smart Contract Functions
+### Smart Contract Functions
 | Function                  | Type   | Description              |
 | ------------------------- | ------ | ------------------------ |
 | GetAllCrops               | Query  | Fetch all crops          |
@@ -121,7 +121,7 @@ Smart Contract Functions
 | ApplyForLoan              | Invoke | Request loan             |
 | GetLoansByFarmer          | Query  | Fetch loans              |
 
-Project Structure
+### Project Structure
 
 agrichain-blockchain/
 
@@ -139,7 +139,7 @@ agrichain-blockchain/
 
 └── start-rest-server.sh
 
-Troubleshooting
+### Troubleshooting
 | Issue                  | Solution                                                          |
 | ---------------------- | ----------------------------------------------------------------- |
 | Port 3000 busy         | npx kill-port 3000                                                |
