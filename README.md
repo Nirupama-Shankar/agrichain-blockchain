@@ -30,13 +30,18 @@ All transactions are recorded on a blockchain to ensure transparency, security, 
 
 ## Architecture
 React Frontend (Port 3000)
-↓
-Express REST API Server
-↓
-Hyperledger Fabric Network
-↓
-Chaincode (Go)
 
+↓
+        
+Express REST API Server
+
+↓
+
+Hyperledger Fabric Network
+
+↓
+
+Chaincode (Go)
 
 ---
 
